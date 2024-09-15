@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('ig.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container {
+    width: 1200px;
+    height: 900px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    width: 320px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+}
+
+.card.one {
+    background-image: url(imag.png); 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+    width: 320px; 
+    height: auto; 
+    aspect-ratio: 1/1; 
+}
+
+.card.two, .card.three {
+    background-image: url(ig.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#pokemonInput1, #pokemonInput2 {
+    margin-top: 20px;
+}
+
+.pk-img {
+    height: 300px;
+    transition: transform 0.5s;
+}
+
+.pk-img:hover {
+    transform: scale(1.2);
+}
+
+.pk-name {
+    color: blue;
+    font-size: 1.7rem;
+}
+
+.pk-ms {
+    color: white;
+    font-size: 1.2rem;
+}
